@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #edeef0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  border-radius: 8px;
+  margin: 16px 0;
+  padding: 14px;
+  max-width: 600px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.15);
+}
+
+.img {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+
+.btn {
+  padding: 6px;
+  cursor: pointer;
+}
